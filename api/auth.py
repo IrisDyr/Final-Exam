@@ -1,5 +1,6 @@
 from flask import Blueprint, request, render_template
 from flask import jsonify
+from flask_sqlalchemy import SQLAlchemy
 
 
 
