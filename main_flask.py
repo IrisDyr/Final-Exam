@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')   
 def main():
-    return 'INF310c -- Final Exam'
+    return render_template("home.html")
 
     
 app.register_blueprint(auth, url_prefix='api/v1/auth')
